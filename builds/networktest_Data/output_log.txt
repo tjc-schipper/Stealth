@@ -1,0 +1,39 @@
+Initialize engine version: 4.5.0f6 (fd4616464986)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx64.dll 8.17.10.1280]
+    Renderer: AMD Radeon R9 200 Series
+    Vendor:   ATI
+    VRAM:     4076 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.085 seconds
+desktop: 2560x1440 60Hz; virtual: 4240x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Thijs\Desktop\Stealth\Stealth\builds\networktest_Data\Managed\System.dll (this message is harmless)
+Connected to room!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnJoinedRoom() (at C:\Users\Thijs\Desktop\Vrije Tijd\Stealth\Assets\Scripts\networking\NetworkManager.cs:51)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+NetworkingPeer:SendMonoMessage(PhotonNetworkingMessage, Object[]) (at C:\Users\Thijs\Desktop\Vrije Tijd\Stealth\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1865)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Thijs\Desktop\Vrije Tijd\Stealth\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1708)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Thijs\Desktop\Vrije Tijd\Stealth\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C Line: 0)
+
